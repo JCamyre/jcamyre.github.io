@@ -1,0 +1,50 @@
+.button-primary {
+  margin-bottom: 60px;
+  padding: 28px 52px;
+  border-radius: 20px;
+  background-color: #e95415;
+  box-shadow: 0 3px 17px 0 rgba(112, 81, 239, 0.27);
+  -webkit-transition: box-shadow 350ms, -webkit-transform 350ms;
+  transition: box-shadow 350ms, transform 350ms, -webkit-transform 350ms;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: none;
+}
+
+.w-button {
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: #3898ec;
+  color: #fff;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+a,
+Link {
+  background-color: transparent;
+  -webkit-transition: color 350ms;
+  transition: color 350ms;
+  color: #e95415;
+  text-decoration: underline;
+}
+
+/* Other theme I'm think about */
+
+/* .btn--outline:before {
+  content: "";
+  position: absolute;
+  background-color: var(--clr-primary);
+  right: 100%;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: right 0.2s ease-in-out;
+} */

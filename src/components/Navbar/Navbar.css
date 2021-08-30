@@ -1,0 +1,30 @@
+.nav-link.w--current {
+  background-color: #f7f6ff;
+  color: #e95415;
+  font-weight: 500;
+}
+
+.nav-link {
+  display: block;
+  padding: 16px 19px;
+  border-radius: 14px;
+  -webkit-transition: background-color 350ms, color 350ms;
+  transition: background-color 350ms, color 350ms;
+  color: #3a395e;
+  line-height: 1em;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.nav-menu {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+}
+
+.w-nav-menu {
+  position: relative;
+  float: right;
+}
+
