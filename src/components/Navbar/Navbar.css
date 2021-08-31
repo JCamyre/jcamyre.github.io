@@ -1,6 +1,12 @@
+/* Have to toggle when component is pressed */
 .nav-link.w--current {
   background-color: #f7f6ff;
-  color: #e95415;
+  color: rgba(126, 168, 24);
+  font-weight: 500;
+}
+.nav-link:hover {
+  background-color: #f7f6ff;
+  color: rgba(126, 168, 24);
   font-weight: 500;
 }
 
@@ -25,6 +31,56 @@
 
 .w-nav-menu {
   position: relative;
-  float: right;
+  /* float: right; */
+  text-align: center;
 }
 
+Link,
+a {
+  text-decoration: None;
+}
+
+.nav-link:hover {
+  background-color: #f7f6ff;
+  color: rgba(126, 168, 24);
+  font-style: normal;
+}
+
+.nav-item-wrapper {
+  margin-right: 10px;
+}
+
+.header-navigation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}

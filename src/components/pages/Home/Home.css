@@ -1,0 +1,28 @@
+h1 {
+  margin: 0 0 27px;
+  color: #3a395e;
+  font-size: 66px;
+  line-height: 1.182em;
+  font-weight: 700;
+}
+
+.social-media-icons {
+  border-radius: 25px;
+  max-width: 40px;
+  -webkit-transition: box-shadow 350ms, -webkit-transform 350ms;
+  transition: box-shadow 350ms, transform 350ms, -webkit-transform 350ms;
+}
+
+.social-media-icons:hover {
+  transform: scale(1.06);
+  box-shadow: 0 22px 33px 0 rgb(140 58 170 / 15%);
+}
+
+.social-media-icons .instagram {
+  /* correspond with color of icon */
+  box-shadow: 0 11px 15px 0 rgb(140 58 170 / 15%);
+}
+
+.social-media-icons .linkedin {
+  box-shadow: 0 6px 10px 0 rgb(1 138 210 / 25%);
+}

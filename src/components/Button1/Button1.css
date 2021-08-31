@@ -35,16 +35,38 @@ Link {
   text-decoration: underline;
 }
 
-/* Other theme I'm think about */
+/* Traversy Media button */
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
 
-/* .btn--outline:before {
-  content: "";
-  position: absolute;
-  background-color: var(--clr-primary);
-  right: 100%;
-  bottom: 0;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  transition: right 0.2s ease-in-out;
-} */
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+button:hover {
+  /* Increase box-shadow size, as well as button size and invert colors */
+  box-shadow: 0 7px 25px 0 rgb(112 81 239 / 27%);
+  transform: scale(1.05);
+  background-color: #fff;
+  color: rgba(126, 168, 24);
+}

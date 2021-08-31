@@ -1,3 +1,25 @@
+/* Use font-face to import downloaded fonts and use within project */
+/* Jakarta Regular */
+@font-face {
+  font-family: "Plus Jakarta Display Regular";
+  src: local("PlusJakartaReg"),
+    url("./fonts/PlusJakartaSans-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+
+/* Jakarta Medium */
+@font-face {
+  font-family: "Plus Jakarta Display Medium";
+  src: local("PlusJakartaMed"),
+    url("./fonts/PlusJakartaSans-Medium.woff2") format("woff2");
+  font-weight: normal;
+}
+
+* {
+  font-family: "Plus Jakarta Display Medium", "Plus Jakarta Display Regular",
+    Roboto, sans-serif;
+}
+
 .App {
   text-align: center;
 }
