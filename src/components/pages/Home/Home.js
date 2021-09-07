@@ -31,7 +31,7 @@ export default function Home() {
             src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F2%2Ff%2Fd%2F483719.jpg&f=1&nofb=1"
           />
           <h1 style={{ margin: "20px 60px" }}>
-            Hello, I'm&nbsp;Joseph Camyre, a {""}
+            Hello, I'm&nbsp;Joseph S Camyre, a {""}
             <span style={{ color: "rgba(126, 168, 24)" }}>
               Software Engineer
             </span>
