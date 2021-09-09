@@ -10,7 +10,7 @@ function PortfolioComponent(props) {
         <Link to={props.url}>
             <div className='portfolio-component'>
                 <div className='portfolio-thumbnail'>
-                    <img alt='thumbnail for project' src={props.thumbnail} />
+                    <img style={{height: '200px'}}alt='thumbnail for project' src={props.thumbnail} />
                 </div>
                 <div className='portfolio-text'>
                     <div className='button'>

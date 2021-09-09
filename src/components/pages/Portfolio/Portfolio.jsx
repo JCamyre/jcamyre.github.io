@@ -7,24 +7,24 @@ function Portfolio() {
         // Use Grid package?
         <div>
             <Grid container spacing={3}>
-                <Grid container item xs={6} spacing={250}>
+                <Grid item xs={6}>
                     <PortfolioComponent 
                         thumbnail='https://images.immediate.co.uk/production/volatile/sites/2/2020/04/Cheesburger-01e0a43.jpg?quality=90&resize=768,574'
                     />
                 </Grid>
-                <Grid container item xs={6} spacing={250}>
+                <Grid item xs={6}>
                     <PortfolioComponent 
-                        thumbnail='https://images.immediate.co.uk/production/volatile/sites/2/2020/04/Cheesburger-01e0a43.jpg?quality=90&resize=768,574'
+                        // thumbnail='https://images.immediate.co.uk/production/volatile/sites/2/2020/04/Cheesburger-01e0a43.jpg?quality=90&resize=768,574'
                     />
                 </Grid>
-                <Grid container item xs={6} spacing={250}>
+                <Grid item xs={6}>
                     <PortfolioComponent 
-                        thumbnail='https://images.immediate.co.uk/production/volatile/sites/2/2020/04/Cheesburger-01e0a43.jpg?quality=90&resize=768,574'
+                        // thumbnail='https://images.immediate.co.uk/production/volatile/sites/2/2020/04/Cheesburger-01e0a43.jpg?quality=90&resize=768,574'
                     />
                 </Grid>
-                <Grid container item xs={6} spacing={250}>
+                <Grid item xs={6}>
                     <PortfolioComponent 
-                        thumbnail='https://images.immediate.co.uk/production/volatile/sites/2/2020/04/Cheesburger-01e0a43.jpg?quality=90&resize=768,574'
+                        // thumbnail='https://images.immediate.co.uk/production/volatile/sites/2/2020/04/Cheesburger-01e0a43.jpg?quality=90&resize=768,574'
                     />
                 </Grid>
             </Grid> 
