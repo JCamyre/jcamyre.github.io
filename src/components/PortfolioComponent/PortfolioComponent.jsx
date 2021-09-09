@@ -9,10 +9,10 @@ function PortfolioComponent(props) {
         // Different states when you hover over
         <Link to={props.url}>
             <div className='portfolio-component'>
-                <div>
+                <div className='portfolio-thumbnail'>
                     <img alt='thumbnail for project' src={props.thumbnail} />
                 </div>
-                <div>
+                <div className='portfolio-text'>
                     <div className='button'>
                         <h5>{props.category}</h5>
                     </div>
