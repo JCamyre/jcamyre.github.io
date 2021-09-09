@@ -7,7 +7,7 @@ function PortfolioComponent(props) {
         <Link to={props.url}>
             <div>
                 <div>
-                    <img src={props.thumbnail} />
+                    <img alt='thumbnail for project' src={props.thumbnail} />
                 </div>
                 <div>
                     <div className='button'>
