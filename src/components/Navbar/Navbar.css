@@ -14,8 +14,8 @@
   display: block;
   padding: 16px 19px;
   border-radius: 14px;
-  -webkit-transition: background-color 350ms, color 350ms;
-  transition: background-color 350ms, color 350ms;
+  -webkit-transition: background-color 700ms, color 700ms;
+  transition: background-color 700ms, color 700ms;
   color: #3a395e;
   line-height: 1em;
   text-decoration: none;
