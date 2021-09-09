@@ -5,7 +5,7 @@ import { Grid } from '@material-ui/core';
 function Portfolio() {
     return (
         // Use Grid package?
-        <div>
+        <div style={{margin: '20px 60px'}}>
             <Grid container spacing={3}>
                 <Grid item xs={6}>
                     <PortfolioComponent 
