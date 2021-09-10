@@ -24,7 +24,7 @@ export default function Home() {
           <Link to="/portfolio">See my portfolio</Link>
         </Button1>
       </div>
-      <div>
+      <div style={{ height: "800px" }}>
         <div style={{ backgroundColor: "#eeeeee" }}>
           <img
             style={imgStyles}
