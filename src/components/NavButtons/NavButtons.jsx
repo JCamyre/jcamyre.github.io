@@ -3,6 +3,7 @@ import Resume from '../../documents/Joseph S Camyre Resume.pdf';
 import NavButton from '../NavButton/NavButton';
 import { Link } from 'react-router-dom';
 import './NavButtons.css'
+import Button from '../Button1/Button1';
 
 const NavButtons = () => {
     const [current, setCurrent] = useState('home');
@@ -31,7 +32,11 @@ const NavButtons = () => {
 
     return (
         <ul className='header-navigation'>
+            <Button style={{justifyContent: 'left'}}>
+                <i class="fas fa-icicles" />
+            </Button>
             <li className='nav-item-wrapper' style={{display: 'inline-block'}}>
+
             {/* I think I have to make a new button component because Button class overrides nav-link */}
                 <NavButton>
                     <Link to='/'>Home</Link>
