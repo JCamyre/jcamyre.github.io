@@ -4,14 +4,14 @@ function SocialMediaButton(props) {
     return (
         <div>
             <a
-              href="https://www.instagram.com/realmizkif/"
+              href={props.href}
               target="_blank"
               rel="noreferrer"
             >
               <img
-                alt="Instagram logo"
-                className="social-media-icons instagram"
-                src="https://uploads-ssl.webflow.com/5fdcc89b08dd76ebd582ce20/5fdcc89b1788e769745cfdc8_icon-social-media-03-designer-template.svg"
+                alt={props.alt}
+                className={`social-media-icons ${props.className}`}
+                src={props.img}
               />
             </a>
         </div>
