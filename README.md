@@ -70,3 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### Run `npm run deploy` or `yarn run deploy` to deploy build to gh-pages (pushing the code)
+
+### You can also push source code to master branch
+`git push origin master`
