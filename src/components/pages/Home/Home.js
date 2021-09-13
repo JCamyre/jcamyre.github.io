@@ -18,7 +18,7 @@ const imgStyles = {
 // Contact page
 export default function Home() {
   return (
-    <div>
+    <div className="container">
       <div>
         <div>
           <Button1>
