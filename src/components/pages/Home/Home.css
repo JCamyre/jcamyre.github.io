@@ -7,5 +7,11 @@ h1 {
 }
 
 .container {
-  margin: 0px 240px;
+  margin: 0px 300px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
