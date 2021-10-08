@@ -7,21 +7,23 @@ function PortfolioComponent(props) {
     return (
         //  Put github url here?
         // Different states when you hover over
-        <Link to={props.url}>
-            <div className='portfolio-component'>
-                <div className='portfolio-thumbnail'>
-                    <img style={{height: '200px'}}alt='thumbnail for project' src={props.thumbnail} />
-                </div>
-                <div className='portfolio-text'>
-                    <div className='button'>
-                        <h5>{props.category}</h5>
+        <div>
+            <a href={props.url} target='_blank' rel='noreferrer'>
+                <div className='portfolio-component'>
+                    <div className='portfolio-thumbnail'>
+                        <img style={props.style}alt='thumbnail for project' src={props.thumbnail} />
                     </div>
-                    <h2>{props.title}</h2>
-                    <h4>{props.description}</h4>
-                    <h4><Button1>View</Button1></h4>
+                    <div className='portfolio-text'>
+                        <div className='button'>
+                            <h5>{props.category}</h5>
+                        </div>
+                        <h2>{props.title}</h2>
+                        <h4>{props.description}</h4>
+                        <h4><Button1>View</Button1></h4>
+                    </div>
                 </div>
-            </div>
-        </Link>
+            </a>
+        </div>
     )
 }
 

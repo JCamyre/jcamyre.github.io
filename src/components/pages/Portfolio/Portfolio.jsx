@@ -1,6 +1,7 @@
 import React from 'react'
 import PortfolioComponent from '../../PortfolioComponent/PortfolioComponent';
 import { Grid } from '@material-ui/core';
+import lunalogo from '../../../images/LunaLogo.png';
 
 function Portfolio() {
     return (
@@ -8,8 +9,10 @@ function Portfolio() {
         <div style={{margin: '20px 60px'}}>
             <Grid container spacing={3}>
                 <Grid item xs={6}>
-                    <PortfolioComponent 
-                        thumbnail='https://images.immediate.co.uk/production/volatile/sites/2/2020/04/Cheesburger-01e0a43.jpg?quality=90&resize=768,574'
+                    <PortfolioComponent
+                        url='https://github.com/JCamyre/Lunatrading' // Link to heroku when it works, or have both?? 
+                        thumbnail={lunalogo}
+                        style={{height: '50px'}}
                     />
                 </Grid>
                 <Grid item xs={6}>
