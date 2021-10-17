@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3dcad1e5.chunk.css",
-    "main.js": "/static/js/main.9a0d01ea.chunk.js",
-    "main.js.map": "/static/js/main.9a0d01ea.chunk.js.map",
+    "main.js": "/static/js/main.b14a810a.chunk.js",
+    "main.js.map": "/static/js/main.b14a810a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fe89cfd5.js",
     "runtime-main.js.map": "/static/js/runtime-main.fe89cfd5.js.map",
     "static/js/2.bb599b83.chunk.js": "/static/js/2.bb599b83.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.3dcad1e5.chunk.css.map": "/static/css/main.3dcad1e5.chunk.css.map",
     "static/js/2.bb599b83.chunk.js.LICENSE.txt": "/static/js/2.bb599b83.chunk.js.LICENSE.txt",
-    "static/media/Joseph S Camyre.dd64b862.pdf": "/static/media/Joseph S Camyre.dd64b862.pdf",
+    "static/media/Joseph S Camyre Portfolio.dd64b862.pdf": "/static/media/Joseph S Camyre Portfolio.dd64b862.pdf",
     "static/media/App.css": "/static/media/PlusJakartaSans-Regular.2a7bb451.woff2",
     "static/media/WOWSOPROFESSIONAL.86cc18fb.jpg": "/static/media/WOWSOPROFESSIONAL.86cc18fb.jpg"
   },
@@ -20,6 +20,6 @@
     "static/js/runtime-main.fe89cfd5.js",
     "static/js/2.bb599b83.chunk.js",
     "static/css/main.3dcad1e5.chunk.css",
-    "static/js/main.9a0d01ea.chunk.js"
+    "static/js/main.b14a810a.chunk.js"
   ]
 }
